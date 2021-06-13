@@ -1,0 +1,294 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: url('imagens/fundo3.jpg');
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+@media only screen and (min-width: 480px){
+ #area-principal{
+	width: 450px;
+	margin: 120px auto 30px auto;
+
+}
+#navegacao{
+	background: black;
+	border-bottom: 1px solid black;
+	height: 120px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+
+}
+}
+
+
+@media only screen and (min-width: 600px){
+ #area-principal{
+	width: 600px;
+	margin: 70px auto 30px auto;
+	margin-top: 120px;
+
+}
+#navegacao{
+	background: black;
+	border-bottom: 1px solid black;
+	height: 120px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+
+}
+}
+
+@media only screen and (min-width: 768px){
+ #area-principal{
+	width: 780px;
+	margin: 120px auto 30px auto;
+
+}
+#navegacao{
+	background: black;
+	border-bottom: 1px solid black;
+	height: 120px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+
+}
+}
+
+@media only screen and (min-width: 992px){
+ #area-principal{
+	width: 820px;
+	margin: 120px auto 30px auto;
+	
+
+}
+#navegacao{
+	background: black;
+	border-bottom: 1px solid black;
+	height: 120px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+
+}
+}
+
+@media only screen and (min-width: 1382px) {
+ #area-principal{
+	width: 820px;
+	margin: 120px auto 30px auto;
+
+}
+
+#navegacao{
+	background: black;
+	border-bottom: 1px solid black;
+	height: 120px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+
+}
+}
+
+
+
+
+.topnav{
+    text-align: center;
+	padding: 15px 10px;
+
+}
+
+
+#postagem{
+	background: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+label {
+	color: black;
+	font-size: 20px;
+	margin: 50px;
+}
+
+audio{
+   bottom:0;
+   display:block;
+   position:fixed;
+   width: 100%;
+   height: 20px;
+   
+}
+
+
+
+
+/* Formatação do menu*/
+
+.topnav a{
+	
+	color: white;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+/*Links não visitados*/
+			a:link{
+				color: white;
+
+			}
+			/*Links visitados*/
+			a:visited{
+				color: white;
+			}
+
+			/*Links hover, passa o cursor sobre o link*/
+			.vermelho:hover{
+				color: #FFF;
+				background: #FF0000;
+
+			}
+
+				.amarelo:hover{
+				color: #FFF;
+				background: #FACC2E;
+
+			}
+
+				.azul:hover{
+				color: #FFF;
+				background: #5882FA;
+
+			}
+
+				.roxo:hover{
+				color: #FFF;
+				background: #9A2EFE;
+
+			}
+
+				.verde:hover{
+				color: #FFF;
+				background: #00FF40;
+
+			}
+
+/*Classes*/
+
+.data-postagem{
+	font-size: 14px;
+	border-bottom: 1px solid #f4f4f4;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+
+}
+
+.img-postagem{
+	margin: 0 10px 5px 10px;
+	width: auto;
+
+}
+
+
+nav.transparente {
+	opacity: 0.85;
+}
+
+
+.personagens{
+	color: black;
+}
+
+
+
+.bt{
+	border:1px solid #25692A;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:13px;
+	padding:6px 10px;
+	text-decoration:none;
+	border-color:#46a7f5;
+	background:linear-gradient(to bottom, black 6%,  #819FF7 100%);
+	box-shadow:inset 0px 1px 0px 0px #d7ecfd;
+	color: white;
+	text-shadow:0px 1px 0px #528009;
+}
+
+.bt:hover {
+background:linear-gradient(to bottom, #819FF7 5%, #2E64FE 100%);
+}
+
+
+
+
+input[type=text]{   
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #819FF7; 
+    border:1px solid #000000;
+    width:200px;
+    height: 25px;
+   
+}
+
+input[type=email]{   
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #819FF7; 
+    border:1px solid #000000;
+    width:200px;
+    height: 25px;
+}
+
+input[type=password]{   
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #819FF7; 
+    border:1px solid #000000;
+    width:200px;
+    height: 25px;
+}
+
+input[type=date]{   
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background:#819FF7; 
+    border:1px solid #000000;
+    width:200px;
+    height: 25px;
+}
+
+
+
